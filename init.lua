@@ -543,15 +543,12 @@ require('lazy').setup({
         -- gopls = {},
         -- pyright = {},
         rust_analyzer = {},
-<<<<<<< HEAD
         asm_lsp = {},
         asmfmt = {},
-=======
         zls = {
           -- Use different binary than the default provided by Mason
           cmd = { '/home/seijidev/seijidev/bin/zls/master/zls' },
         },
->>>>>>> d4b637b87cfd4cd068ed389a703edc0714a6042b
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
